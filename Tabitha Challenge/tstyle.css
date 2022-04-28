@@ -65,4 +65,13 @@ body {
 }
 .wrapper {
     display: grid;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 5px;
+}
+.wrapper > div {
+    background: grey;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background-color: rgb(201, 171, 171);
 }
