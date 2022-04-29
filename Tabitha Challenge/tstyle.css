@@ -70,11 +70,11 @@ body {
   grid-column-gap: 5px;
 }
 .right {
-  background-color: grey;
+  background-color: rgb(169, 169, 169);
   grid-template-columns: 50% 50%;
 }
 .left {
-  background-color: rgb(201, 171, 171);
+  background-color: rgb(169, 169, 169);
 }
 .top {
   background-color: azure;
@@ -87,13 +87,15 @@ body {
   place-items: center;
 }
 .bright {
-  background-color: violet;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
 }
 .bl {
-  background-color: rgb(83, 83, 192);
+  background-color: rgb(169, 169, 169);
 }
 .br {
-  background-color: aquamarine;
+  background-color: rgb(169, 169, 169);
 }
 .nachos {
   background-color: rgb(137, 207, 240);
