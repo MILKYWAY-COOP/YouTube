@@ -59,6 +59,10 @@ body {
   margin: 0;
   padding: 0;
 }
+#ul3 {
+  list-style-type: none;
+  /* margin-top: 15px; */
+}
 
 .bar2:hover {
   background-color: orange;
@@ -80,11 +84,14 @@ body {
   background-color: azure;
 }
 .bottom {
-  background-color: aqua;
+  background-color: rgb(248, 242, 218);
+  height: 400px;
 }
 .img {
   display: grid;
   place-items: center;
+  height: 50px;
+  width: auto;
 }
 .bright {
   display: grid;
