@@ -34,9 +34,12 @@ while run:
     #moving the small circle
     if circlexy[1] >= start[1] and move == True:
         circlexy[1] += 1
-        move = False
-    elif circlexy[1] > end[1]:
+        if circlexy[1] > end[1]:
+            move = False
+    if circlexy[1] >= end[1] or move == False:
         circlexy[1] -= 1
+        if circlexy[1] <= start[1]:
+            move = True
 
     pygame.draw.circle(screen, color[1], center, radius[0])
     draw_line()
