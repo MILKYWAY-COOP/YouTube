@@ -1,8 +1,10 @@
 body {
   background-color: rgb(169, 169, 169);
+  font-family: 'Work Sans', sans-serif;
 }
 
 .Hd1 {
+  font-weight: bold;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -10,6 +12,7 @@ body {
   height: 75px;
 }
 #ul1 {
+  font-weight: bold;
   background-color: rgb(33, 31, 31);
   list-style-type: none;
   margin: 0;
@@ -42,7 +45,6 @@ body {
 .bar21 {
   font-family: 'Brush Script MT', cursive;
   font-size: 30px;
-  background: rgb(237, 213, 5);
   color: rgb(255, 255, 255);
 }
 .bar2 {
@@ -50,7 +52,7 @@ body {
   color: rgb(255, 255, 255);
   padding: 10px;
   margin-left: 15px;
-  font-weight: lighter;
+  font-weight: bold;
   font-stretch: expanded;
 }
 #ul2 {
@@ -106,4 +108,7 @@ body {
 }
 .nachos {
   background-color: rgb(137, 207, 240);
+}
+.h22 {
+  color: #2f2509;
 }
