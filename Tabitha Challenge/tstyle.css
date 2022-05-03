@@ -34,6 +34,7 @@ body {
 }
 .bar1:hover {
   border: 2px solid rgb(247, 247, 247);
+  cursor: pointer;
 }
 .Hd2 {
   display: flex;
@@ -68,6 +69,8 @@ body {
 
 .bar2:hover {
   background-color: orange;
+  cursor: pointer;
+  text-shadow: 5px 3px 2px grey;
 }
 .wrapper {
   display: grid;
@@ -102,8 +105,10 @@ body {
 }
 .bl {
   background-color: rgb(169, 169, 169);
+  padding: 10px;
 }
 .br {
+  padding: 10px;
   background-color: rgb(169, 169, 169);
 }
 .nachos {
